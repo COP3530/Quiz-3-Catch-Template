@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/workspaces/Quiz-3-Catch-Template"
+    "cmake.sourceDirectory": "/workspaces/Quiz-3-Catch-Template",
+    "debug.internalConsoleOptions": "neverOpen"
 }

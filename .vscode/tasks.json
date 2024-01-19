@@ -5,9 +5,9 @@
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
-                "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "${fileDirname}/../catch/catch_amalgamated.cpp",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
