@@ -1,4 +1,4 @@
-#include <catch2/catch_test_macros.hpp>
+#include "catch/catch_amalgamated.hpp"
 #include <iostream>
 
 #include "interquartile_range.h"

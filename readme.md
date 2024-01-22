@@ -115,6 +115,11 @@ In src/test.cpp, replace the line at the top that reads `#include <catch2/catch_
 #include "..test/catch/catch_amalgamated.hpp"
 ```
 
+Also change the include for `interquartile_range.h` with a relative path, like so:
+```cpp
+#include "../src/interquartile_range.h"
+```
+
 Run this command once from your project directory:
 ```sh
 g++ -std=c++14 -Werror -Wuninitialized -g -c test/catch/catch_amalgamated.cpp -o build/catch_amalgamated.o
