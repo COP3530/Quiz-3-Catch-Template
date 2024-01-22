@@ -18,5 +18,5 @@ add_executable(Tests
         
 # comment everything below out if you are using CLion
 include(CTest)
-include(Catch)
+include(test/catch/Catch.cmake) #local Catch Cmake files
 catch_discover_tests(Tests) # must be named the same as your test executable
